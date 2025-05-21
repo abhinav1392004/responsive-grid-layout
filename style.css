@@ -1,24 +1,32 @@
+
 body{
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
 }
 
 .container{
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.head, .main, .footer{
+    background-color: pink;
+    border-radius: 10px; 
 }
 
 .head{
-    flex: 2;
-    background-color: ;
+    height: 10vh;
+    margin: 0;
 }
-
 .main{
-    flex: 2;
+    height: 80vh;
+    margin: 0;
 }
-
 .footer{
-    flex: 2;
+    height: 10vh;
+    margin: 0;
 }
