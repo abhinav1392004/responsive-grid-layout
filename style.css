@@ -34,7 +34,7 @@ body{
 }
 .rightMain{
     display: grid;
-    grid-template-rows: 70% 30%;
+    grid-template-rows: 80% 20%;
     border-radius: 10px;
 }
 .rightMainUpper{
@@ -43,10 +43,13 @@ body{
 }
 .rightMainLower{
     display: grid;
-    grid-template-columns: 1fx 1fx 1fx;
+    grid-template-columns: 14% 14% 14%;
     background-color: transparent;
+    align-content: space-evenly;
+    justify-content: space-evenly;
 }
 .image{
+    aspect-ratio: 10/10;
     border-radius: 50px;
     background-color: #eb9341;
 }
